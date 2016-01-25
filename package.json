@@ -1,10 +1,10 @@
 {
-  "name": "@scola/model",
+  "name": "@scola/model-server",
   "version": "1.0.0",
-  "description": "Model Management",
+  "description": "Server-side Model Management",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scola84/node-model.git"
+    "url": "git+https://github.com/scola84/node-model-server.git"
   },
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
   "license": "MIT",
