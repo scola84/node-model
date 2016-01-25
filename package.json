@@ -1,0 +1,30 @@
+{
+  "name": "@scola/model",
+  "version": "1.0.0",
+  "description": "Model Management",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scola84/node-model.git"
+  },
+  "author": "M.C. van den Boogaart <scola@kvdb.name>",
+  "license": "MIT",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      [
+        "babelify", {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0"
+  },
+  "dependencies": {
+    "@scola/events": "^1.0.0"
+  }
+}
