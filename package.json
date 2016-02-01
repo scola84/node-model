@@ -12,7 +12,8 @@
   "browserify": {
     "transform": [
       [
-        "babelify", {
+        "babelify",
+        {
           "presets": [
             "es2015"
           ]
@@ -25,6 +26,9 @@
     "babelify": "^7.2.0"
   },
   "dependencies": {
-    "@scola/events": "^1.1.2"
+    "@scola/di": "^2.0.0",
+    "@scola/events": "^1.1.2",
+    "lodash.get": "^4.0.1",
+    "lodash.has": "^4.0.2"
   }
 }
