@@ -25,6 +25,6 @@
     "babelify": "^7.2.0"
   },
   "dependencies": {
-    "@scola/events": "^1.0.0"
+    "@scola/events": "^1.1.2"
   }
 }
