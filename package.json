@@ -1,7 +1,7 @@
 {
   "name": "@scola/model-server",
-  "version": "1.0.0",
-  "description": "Server-side Model Management",
+  "version": "0.0.0",
+  "description": "Server Model",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scola84/node-model-server.git"
@@ -27,8 +27,6 @@
   },
   "dependencies": {
     "@scola/di": "^2.0.0",
-    "@scola/events": "^1.1.2",
-    "lodash.get": "^4.0.1",
-    "lodash.has": "^4.0.2"
+    "@scola/events": "^1.1.2"
   }
 }
